@@ -6,6 +6,7 @@ import ApiConsole from './components/ApiConsole'
 
 class App extends Component {
   render() {
+    console.log("Just changing")
     const { apiKey, shopOrigin } = window;
 
     return (
